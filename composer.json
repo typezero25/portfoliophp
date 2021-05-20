@@ -1,0 +1,14 @@
+{
+    "name": "portfolio/portfolio",
+    "description": "Portfolio fait en formation",
+    "type": "project",
+    "authors": [
+        {
+            "name": "typezero25",
+            "email": "sidneytandel@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.9"
+    }
+}
