@@ -4,6 +4,7 @@ require_once 'form/configuration.php';
 require_once 'config/connect.php';
 require_once 'form/loginform.php';
 
+
 //echo DB_NAME. '<br>';
 
 //echo $_POST ['email']. '<br>'.$_POST ['password']. '<br>';
@@ -72,6 +73,9 @@ if(isset($_SESSION['msg-flash']) && !empty($_SESSION['msg-flash'])){
                     <li class="nav-item">
                         <a class="mx-5 nav-link " href="about.php">À propos</a>
                     </li>
+                    <li class="nav-item">
+                    <a class="mx-5 nav-link " href="training.php">Training</a>
+                </li>
                 </ul>
             </div>
         </nav>
@@ -145,6 +149,7 @@ if(isset($_SESSION['msg-flash']) && !empty($_SESSION['msg-flash'])){
             <li class="list-inline-item"><a href="register.php">S'enregistrer</a></li>
             <li class="list-inline-item"><a href="contact.php">Contact</a></li>
             <li class="list-inline-item"><a href="about.php">A propos</a></li>
+            <li class="list-inline-item"><a href="training.php">Training</a></li>
         </ul>
     </div>
 
